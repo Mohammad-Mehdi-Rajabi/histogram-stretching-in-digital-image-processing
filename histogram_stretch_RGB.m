@@ -2,7 +2,7 @@ clc
 clear all
 
 
-% read image in RGB
+% read image as RGB
 % add your image path here
 img = imread("your path");
 
