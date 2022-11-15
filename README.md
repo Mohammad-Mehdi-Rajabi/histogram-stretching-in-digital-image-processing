@@ -6,5 +6,5 @@ input in grayscale
 <br>
 <br>
 <br>
-output
+output in grayscale
 ![Screenshot](output.jpg)
