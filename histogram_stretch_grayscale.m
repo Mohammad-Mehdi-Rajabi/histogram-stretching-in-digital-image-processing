@@ -6,7 +6,7 @@ clear all
 % add your image path here
 img = rgb2gray(imread("input path"));
 
-% to get length and hight of image
+% to get length and heightof image
 [len, high] = size(img);
 
 % to get max and min intensity of image
