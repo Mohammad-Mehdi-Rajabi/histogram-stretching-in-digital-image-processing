@@ -68,9 +68,9 @@ stretch_img_B = uint8(stretch_img_B);
 img_output = cat(3,stretch_img_R, stretch_img_G, stretch_img_B);
 
 % show input and output image
-imwrite(img_output,"your path");
+imshow(img), figure, imshow(img_output);
 
 
 % save output
 % add your path to save output here
-imshow(img), figure, imshow(img_output);
+imwrite(img_output,"your path");
