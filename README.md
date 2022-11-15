@@ -1,5 +1,5 @@
 # histogram-stretching
-the histogram_stretching_grayscale.m is simple implement of histogram stretching algorithm.<br>
+the histogram_stretching_grayscale.m is simple implement of histogram stretching algorithm that can enhancement contrast.<br>
 <br><br><br><br>
 input in grayscale
 ![Screenshot](input.jpg)<br>
