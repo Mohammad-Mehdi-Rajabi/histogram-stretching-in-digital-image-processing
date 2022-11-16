@@ -37,8 +37,8 @@ stretch_img_B = zeros(len_B, high_B);
 % for each channel:
 % g(x,y) = ((f(x,y)-min_intensity)/(max_intensity-min_intensity))* z + MIN
 % z =(MAX - MIN) 
-% where MIN -> minimum value of needed dynamic range 
-% MAX -> maximum value of needed dynamic range 
+% where MIN -> minimum value of needed dynamic range -> here is 0
+% MAX -> maximum value of needed dynamic range ->here is 255
 for i = 1:len_R
     for j = 1:high_R
       stretch_img_R(i,j)=(double(img_R(i,j)-min_intensity_R)/double(max_intensity_R-min_intensity_R))*255; 
