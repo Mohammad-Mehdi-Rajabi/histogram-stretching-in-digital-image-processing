@@ -5,14 +5,13 @@ the histogram_stretching_grayscale.m is simple implementation of histogram stret
 input in RGB
 ![Screenshot](input_RGB.jpg)<br>
 <br>
-<br>
-<br>
 output in RGB
 ![Screenshot](output_RGB.jpg)
+<br>
+<br>
+<br><br><br><br><br>
 input in grayscale
 ![Screenshot](input.jpg)<br>
-<br>
-<br>
 <br>
 output in grayscale
 ![Screenshot](output.jpg)
